@@ -1,0 +1,23 @@
+{
+  "name": "composio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx agent.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.139",
+    "@anthropic-ai/sdk": "^0.95.2",
+    "@composio/claude-agent-sdk": "^0.9.1",
+    "@composio/core": "^0.9.1",
+    "dotenv": "^17.4.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
